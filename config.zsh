@@ -1,3 +1,4 @@
+
 #HISTORY
 HISTFILE=~/.histfile
 HISTSIZE=1000
