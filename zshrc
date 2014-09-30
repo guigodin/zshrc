@@ -10,11 +10,13 @@ fi
 [ -z "$PS1" ] && return
 
 . ~/.zsh/config.zsh
-. ~/.zsh/bindings.zsh
+
 . ~/.zsh/completion.zsh
 . ~/.zsh/functions.zsh
 . ~/.zsh/aliases.zsh
 . ~/.zsh/prompt.zsh
+
+
 
 [ -e  ~/.rvm/scripts/rvm ] && . ~/.rvm/scripts/rvm
 
@@ -37,6 +39,8 @@ export PERL5LIB="~/.perl5/lib/perl5:$PERL5LIB";
 export PATH="$PATH:~/.perl5/bin";
 
 [ -e ~/.zsh/custom.zsh ] && . ~/.zsh/custom.zsh
+
+. ~/.zsh/bindings.zsh
 
 # newly opened terminal should clean prompt
 true
