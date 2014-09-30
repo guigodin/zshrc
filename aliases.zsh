@@ -42,3 +42,5 @@ alias wwan="sudo wwan"
 
 alias suspend="slimlock & sc suspend"
 alias hibernate="slimlock & sc hibernate"
+
+. /etc/ess/aliases
