@@ -23,7 +23,8 @@
 
 # PROMPT="%m %n %c $(git_super_status) %#"
 # PROMPT="${at_bold}%m ${fg_red}%n ${fg_blue}%c\${vcs_info_msg_0_} %(?/${at_normal}/${fg_red})%%${at_normal} $(git_super_status)"
-PROMPT='${at_bold}%m ${fg_red}%n ${fg_blue}%c ${at_normal}$(git_super_status) %# '
+PROMPT='${at_bold}%m ${fg_red}%n ${fg_blue}%c ${at_normal}$(git_super_status) %#
+'
 # `
 
 # set_prompt_color() {
