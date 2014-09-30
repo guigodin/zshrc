@@ -9,6 +9,8 @@ fi
 
 [ -z "$PS1" ] && return
 
+[ -e ~/.zsh/zsh-git-prompt/zshrc.sh ] && . ~/.zsh/zsh-git-prompt/zshrc.sh
+
 . ~/.zsh/config.zsh
 
 . ~/.zsh/completion.zsh
